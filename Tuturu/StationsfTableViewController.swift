@@ -42,6 +42,10 @@ class StationsTableViewController: UITableViewController, UISearchBarDelegate, U
         searchController.searchBar.placeholder = "Введите название станции"
         navigationItem.titleView = searchController.searchBar
         
+        // tableView height
+        tableView.estimatedRowHeight = 100
+        tableView.rowHeight = UITableViewAutomaticDimension
+        
     }
     
     override func didReceiveMemoryWarning() {
