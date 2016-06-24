@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324AEE461D1D22F000E76A62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE451D1D22F000E76A62 /* AppDelegate.swift */; };
+		324AEE4B1D1D22F000E76A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324AEE491D1D22F000E76A62 /* Main.storyboard */; };
+		324AEE4D1D1D22F000E76A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324AEE4C1D1D22F000E76A62 /* Assets.xcassets */; };
+		324AEE501D1D22F000E76A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324AEE4E1D1D22F000E76A62 /* LaunchScreen.storyboard */; };
+		324AEE5B1D1D22F000E76A62 /* TuturuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE5A1D1D22F000E76A62 /* TuturuTests.swift */; };
+		324AEE661D1D22F000E76A62 /* TuturuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE651D1D22F000E76A62 /* TuturuUITests.swift */; };
+		324AEE7B1D1D236C00E76A62 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE731D1D236C00E76A62 /* AboutViewController.swift */; };
+		324AEE7C1D1D236C00E76A62 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE741D1D236C00E76A62 /* City.swift */; };
+		324AEE7D1D1D236C00E76A62 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE751D1D236C00E76A62 /* DateViewController.swift */; };
+		324AEE7E1D1D236C00E76A62 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE761D1D236C00E76A62 /* ScheduleViewController.swift */; };
+		324AEE7F1D1D236C00E76A62 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE771D1D236C00E76A62 /* Station.swift */; };
+		324AEE801D1D236C00E76A62 /* StationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE781D1D236C00E76A62 /* StationInfoViewController.swift */; };
+		324AEE811D1D236C00E76A62 /* StationsfTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE791D1D236C00E76A62 /* StationsfTableViewController.swift */; };
+		324AEE821D1D236C00E76A62 /* TutuClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AEE7A1D1D236C00E76A62 /* TutuClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		324AEE571D1D22F000E76A62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324AEE3A1D1D22F000E76A62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324AEE411D1D22F000E76A62;
+			remoteInfo = Tuturu;
+		};
+		324AEE621D1D22F000E76A62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324AEE3A1D1D22F000E76A62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324AEE411D1D22F000E76A62;
+			remoteInfo = Tuturu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		324AEE421D1D22F000E76A62 /* Tuturu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tuturu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		324AEE451D1D22F000E76A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		324AEE4A1D1D22F000E76A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		324AEE4C1D1D22F000E76A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		324AEE4F1D1D22F000E76A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		324AEE511D1D22F000E76A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324AEE561D1D22F000E76A62 /* TuturuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuturuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324AEE5A1D1D22F000E76A62 /* TuturuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuturuTests.swift; sourceTree = "<group>"; };
+		324AEE5C1D1D22F000E76A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324AEE611D1D22F000E76A62 /* TuturuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuturuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324AEE651D1D22F000E76A62 /* TuturuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuturuUITests.swift; sourceTree = "<group>"; };
+		324AEE671D1D22F000E76A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324AEE731D1D236C00E76A62 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		324AEE741D1D236C00E76A62 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		324AEE751D1D236C00E76A62 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		324AEE761D1D236C00E76A62 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		324AEE771D1D236C00E76A62 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		324AEE781D1D236C00E76A62 /* StationInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInfoViewController.swift; sourceTree = "<group>"; };
+		324AEE791D1D236C00E76A62 /* StationsfTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsfTableViewController.swift; sourceTree = "<group>"; };
+		324AEE7A1D1D236C00E76A62 /* TutuClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutuClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324AEE3F1D1D22F000E76A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324AEE531D1D22F000E76A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324AEE5E1D1D22F000E76A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324AEE391D1D22F000E76A62 = {
+			isa = PBXGroup;
+			children = (
+				324AEE441D1D22F000E76A62 /* Tuturu */,
+				324AEE591D1D22F000E76A62 /* TuturuTests */,
+				324AEE641D1D22F000E76A62 /* TuturuUITests */,
+				324AEE431D1D22F000E76A62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		324AEE431D1D22F000E76A62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324AEE421D1D22F000E76A62 /* Tuturu.app */,
+				324AEE561D1D22F000E76A62 /* TuturuTests.xctest */,
+				324AEE611D1D22F000E76A62 /* TuturuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324AEE441D1D22F000E76A62 /* Tuturu */ = {
+			isa = PBXGroup;
+			children = (
+				324AEE451D1D22F000E76A62 /* AppDelegate.swift */,
+				324AEE7A1D1D236C00E76A62 /* TutuClient.swift */,
+				324AEE831D1D238000E76A62 /* Models */,
+				324AEE841D1D238A00E76A62 /* Controllers */,
+				324AEE491D1D22F000E76A62 /* Main.storyboard */,
+				324AEE4C1D1D22F000E76A62 /* Assets.xcassets */,
+				324AEE4E1D1D22F000E76A62 /* LaunchScreen.storyboard */,
+				324AEE511D1D22F000E76A62 /* Info.plist */,
+			);
+			path = Tuturu;
+			sourceTree = "<group>";
+		};
+		324AEE591D1D22F000E76A62 /* TuturuTests */ = {
+			isa = PBXGroup;
+			children = (
+				324AEE5A1D1D22F000E76A62 /* TuturuTests.swift */,
+				324AEE5C1D1D22F000E76A62 /* Info.plist */,
+			);
+			path = TuturuTests;
+			sourceTree = "<group>";
+		};
+		324AEE641D1D22F000E76A62 /* TuturuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				324AEE651D1D22F000E76A62 /* TuturuUITests.swift */,
+				324AEE671D1D22F000E76A62 /* Info.plist */,
+			);
+			path = TuturuUITests;
+			sourceTree = "<group>";
+		};
+		324AEE831D1D238000E76A62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				324AEE741D1D236C00E76A62 /* City.swift */,
+				324AEE771D1D236C00E76A62 /* Station.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		324AEE841D1D238A00E76A62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				324AEE731D1D236C00E76A62 /* AboutViewController.swift */,
+				324AEE751D1D236C00E76A62 /* DateViewController.swift */,
+				324AEE761D1D236C00E76A62 /* ScheduleViewController.swift */,
+				324AEE791D1D236C00E76A62 /* StationsfTableViewController.swift */,
+				324AEE781D1D236C00E76A62 /* StationInfoViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324AEE411D1D22F000E76A62 /* Tuturu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324AEE6A1D1D22F000E76A62 /* Build configuration list for PBXNativeTarget "Tuturu" */;
+			buildPhases = (
+				324AEE3E1D1D22F000E76A62 /* Sources */,
+				324AEE3F1D1D22F000E76A62 /* Frameworks */,
+				324AEE401D1D22F000E76A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tuturu;
+			productName = Tuturu;
+			productReference = 324AEE421D1D22F000E76A62 /* Tuturu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		324AEE551D1D22F000E76A62 /* TuturuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324AEE6D1D1D22F000E76A62 /* Build configuration list for PBXNativeTarget "TuturuTests" */;
+			buildPhases = (
+				324AEE521D1D22F000E76A62 /* Sources */,
+				324AEE531D1D22F000E76A62 /* Frameworks */,
+				324AEE541D1D22F000E76A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324AEE581D1D22F000E76A62 /* PBXTargetDependency */,
+			);
+			name = TuturuTests;
+			productName = TuturuTests;
+			productReference = 324AEE561D1D22F000E76A62 /* TuturuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		324AEE601D1D22F000E76A62 /* TuturuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324AEE701D1D22F000E76A62 /* Build configuration list for PBXNativeTarget "TuturuUITests" */;
+			buildPhases = (
+				324AEE5D1D1D22F000E76A62 /* Sources */,
+				324AEE5E1D1D22F000E76A62 /* Frameworks */,
+				324AEE5F1D1D22F000E76A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324AEE631D1D22F000E76A62 /* PBXTargetDependency */,
+			);
+			name = TuturuUITests;
+			productName = TuturuUITests;
+			productReference = 324AEE611D1D22F000E76A62 /* TuturuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324AEE3A1D1D22F000E76A62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dima;
+				TargetAttributes = {
+					324AEE411D1D22F000E76A62 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QYY55EBJJ4;
+					};
+					324AEE551D1D22F000E76A62 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 324AEE411D1D22F000E76A62;
+					};
+					324AEE601D1D22F000E76A62 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 324AEE411D1D22F000E76A62;
+					};
+				};
+			};
+			buildConfigurationList = 324AEE3D1D1D22F000E76A62 /* Build configuration list for PBXProject "Tuturu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324AEE391D1D22F000E76A62;
+			productRefGroup = 324AEE431D1D22F000E76A62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324AEE411D1D22F000E76A62 /* Tuturu */,
+				324AEE551D1D22F000E76A62 /* TuturuTests */,
+				324AEE601D1D22F000E76A62 /* TuturuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324AEE401D1D22F000E76A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324AEE501D1D22F000E76A62 /* LaunchScreen.storyboard in Resources */,
+				324AEE4D1D1D22F000E76A62 /* Assets.xcassets in Resources */,
+				324AEE4B1D1D22F000E76A62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324AEE541D1D22F000E76A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324AEE5F1D1D22F000E76A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324AEE3E1D1D22F000E76A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324AEE7D1D1D236C00E76A62 /* DateViewController.swift in Sources */,
+				324AEE7B1D1D236C00E76A62 /* AboutViewController.swift in Sources */,
+				324AEE821D1D236C00E76A62 /* TutuClient.swift in Sources */,
+				324AEE7E1D1D236C00E76A62 /* ScheduleViewController.swift in Sources */,
+				324AEE7C1D1D236C00E76A62 /* City.swift in Sources */,
+				324AEE461D1D22F000E76A62 /* AppDelegate.swift in Sources */,
+				324AEE7F1D1D236C00E76A62 /* Station.swift in Sources */,
+				324AEE811D1D236C00E76A62 /* StationsfTableViewController.swift in Sources */,
+				324AEE801D1D236C00E76A62 /* StationInfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324AEE521D1D22F000E76A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324AEE5B1D1D22F000E76A62 /* TuturuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324AEE5D1D1D22F000E76A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324AEE661D1D22F000E76A62 /* TuturuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		324AEE581D1D22F000E76A62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324AEE411D1D22F000E76A62 /* Tuturu */;
+			targetProxy = 324AEE571D1D22F000E76A62 /* PBXContainerItemProxy */;
+		};
+		324AEE631D1D22F000E76A62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324AEE411D1D22F000E76A62 /* Tuturu */;
+			targetProxy = 324AEE621D1D22F000E76A62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		324AEE491D1D22F000E76A62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324AEE4A1D1D22F000E76A62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		324AEE4E1D1D22F000E76A62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324AEE4F1D1D22F000E76A62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		324AEE681D1D22F000E76A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		324AEE691D1D22F000E76A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		324AEE6B1D1D22F000E76A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Tuturu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.Tuturu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		324AEE6C1D1D22F000E76A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Tuturu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.Tuturu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		324AEE6E1D1D22F000E76A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TuturuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.TuturuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuturu.app/Tuturu";
+			};
+			name = Debug;
+		};
+		324AEE6F1D1D22F000E76A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TuturuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.TuturuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuturu.app/Tuturu";
+			};
+			name = Release;
+		};
+		324AEE711D1D22F000E76A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TuturuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.TuturuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tuturu;
+			};
+			name = Debug;
+		};
+		324AEE721D1D22F000E76A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TuturuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimatrofimov.TuturuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tuturu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324AEE3D1D1D22F000E76A62 /* Build configuration list for PBXProject "Tuturu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324AEE681D1D22F000E76A62 /* Debug */,
+				324AEE691D1D22F000E76A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324AEE6A1D1D22F000E76A62 /* Build configuration list for PBXNativeTarget "Tuturu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324AEE6B1D1D22F000E76A62 /* Debug */,
+				324AEE6C1D1D22F000E76A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324AEE6D1D1D22F000E76A62 /* Build configuration list for PBXNativeTarget "TuturuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324AEE6E1D1D22F000E76A62 /* Debug */,
+				324AEE6F1D1D22F000E76A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324AEE701D1D22F000E76A62 /* Build configuration list for PBXNativeTarget "TuturuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324AEE711D1D22F000E76A62 /* Debug */,
+				324AEE721D1D22F000E76A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324AEE3A1D1D22F000E76A62 /* Project object */;
+}
