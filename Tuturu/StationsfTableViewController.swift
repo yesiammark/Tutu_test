@@ -155,9 +155,11 @@ class StationsTableViewController: UITableViewController, UISearchBarDelegate, U
     func loadDepartureCities() {
     indicator.startAnimating()
         TutuClient.loadCities(Route.Departure, success: { (cities) in
-            self.cities = cities
-            self.tableView.reloadData()
-            self.indicator.stopAnimating()
+            dispatch_async(dispatch_get_main_queue(), { 
+                self.cities = cities
+                self.tableView.reloadData()
+                self.indicator.stopAnimating()
+            })
         }) { (error) in
             print(error.localizedDescription)
         }
@@ -166,9 +168,11 @@ class StationsTableViewController: UITableViewController, UISearchBarDelegate, U
     func loadDestinationCities() {
         indicator.startAnimating()
         TutuClient.loadCities(Route.Destination, success: { (cities) in
-            self.cities = cities
-            self.tableView.reloadData()
-            self.indicator.stopAnimating()
+            dispatch_async(dispatch_get_main_queue(), {
+                self.cities = cities
+                self.tableView.reloadData()
+                self.indicator.stopAnimating()
+            })
         }) { (error) in
             print(error.localizedDescription)
         }
